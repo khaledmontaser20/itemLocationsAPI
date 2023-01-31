@@ -22,9 +22,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="Contact List API",
+        title="ItemLocations List API",
         default_version='v1',
-        description="An api for contacts",
+        description="An api for Item and Locations",
         terms_of_service="https://yourco/terms/",
         contact=openapi.Contact(email="contact@contacts.remote"),
         license=openapi.License(name="Test License"),
